@@ -145,7 +145,7 @@
   if (skilsContent) {
     new Waypoint({
       element: skilsContent,
-      offset: '70%',
+      offset: '80%',
       handler: function(direction) {
         let progress = select('.progress .progress-bar', true);
         progress.forEach((el) => {
@@ -162,7 +162,7 @@
     speed: 600,
     loop: true,
     autoplay: {
-      delay: 5000,
+      delay: 6000,
       disableOnInteraction: false
     },
     slidesPerView: 'auto',
